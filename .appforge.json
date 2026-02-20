@@ -1,0 +1,211 @@
+{
+  "id": "moodpalette-studio",
+  "name": "moodpalette-studio",
+  "framework": "nextjs",
+  "projectPath": "E:\\sources\\examples\\moodpalette-studio",
+  "createdAt": 1771517032395,
+  "chatHistory": [
+    {
+      "role": "user",
+      "content": "Aether est un dashboard personnel ultra-premium qui regroupe toute ta vie en un seul endroit :\n\nAgenda intelligent avec vue calendrier + timeline\nNotes AI (comme Notion mais plus beau)\nHabit tracker avec streaks visuels\nFinance overview (solde, dépenses par catégorie, graphiques)\nWeather + mood journal\nSection “Focus Mode” avec timer Pomodoro + musique ambient\nSidebar gauche fixe avec tous les modules\nTop bar avec recherche globale + avatar + quick actions\n\nLe tout dans une interface dark glassmorphism très fluide, avec des micro-animations subtiles, des cartes qui “lèvent” au hover, des gradients doux et des illustrations 3D légères (via Lottie ou simple SVG animés).\nL’objectif : créer le dashboard le plus beau et le plus “waouh” possible en 2026 pour montrer la puissance de l’AI designer. Design Inspiration / Assets\n\nArc Browser\nLinear.app\nNotion (version 2026)\nRaycast\nApple Vision Pro interface\nSites : https://dub.co, https://perplexity.ai, https://linear.app\n\nColor palette: Light (#ffffff, #f5f5f5, #e8e8e8)\nDesign style: Modern\nAI provider: claude",
+      "timestamp": 1771606338629,
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "Creating a Next.js project...",
+      "timestamp": 1771606338629,
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "Output validated: not validated",
+      "timestamp": 1771606338629,
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "Your app is ready! You can see it in the preview pane. Ask me to make any changes.",
+      "timestamp": 1771606338629,
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "__PROJECT_CARD__",
+      "timestamp": 1771606338630,
+      "metadata": {}
+    },
+    {
+      "role": "system",
+      "content": "Resumed project: moodpalette-studio",
+      "timestamp": 1771606338630,
+      "metadata": {}
+    },
+    {
+      "role": "user",
+      "content": "ajoute des fonctionnalités",
+      "timestamp": 1771606338630,
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "No file changes were made. The AI did not return any ===FILE:=== blocks — check the Logs tab for the raw response.",
+      "timestamp": 1771606338630,
+      "metadata": {}
+    },
+    {
+      "role": "system",
+      "content": "Resumed project: moodpalette-studio",
+      "timestamp": 1771606338630,
+      "metadata": {}
+    },
+    {
+      "role": "user",
+      "content": "ajoute des fonctionnalités",
+      "timestamp": 1771606338630,
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "No file changes were made. The AI did not return any ===FILE:=== blocks — check the Logs tab for the raw response.",
+      "timestamp": 1771606338630,
+      "metadata": {}
+    },
+    {
+      "role": "user",
+      "content": "ajoute des fonctionnalités",
+      "timestamp": 1771606338630,
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "Applied changes to 16 file(s): app/layout.tsx, app/globals.css, app/page.tsx, app/components/Sidebar.tsx, app/components/TopBar.tsx, app/components/CalendarSection.tsx, app/components/NotesSection.tsx, app/components/HabitsSection.tsx, app/components/FinanceSection.tsx, app/components/MoodSection.tsx, app/components/FocusSection.tsx, package.json, tailwind.config.ts, tsconfig.json, next.config.js, postcss.config.js",
+      "timestamp": 1771606338630,
+      "metadata": {}
+    },
+    {
+      "role": "system",
+      "content": "Resumed project: moodpalette-studio",
+      "timestamp": 1771606338630,
+      "metadata": {}
+    },
+    {
+      "role": "user",
+      "content": "Build Error\nFailed to compile\n\nNext.js (14.2.35) is outdated (learn more)\n./app/components/CalendarSection.tsx:5:1\nModule not found: Can't resolve 'sonner'\n  3 | import { useState } from 'react';\n  4 | import { Plus } from 'lucide-react';\n> 5 | import { toast } from 'sonner';\n    | ^\n  6 |\n  7 | export default function CalendarSection() {\n  8 |   const [events, setEvents] = useState([\n\nhttps://nextjs.org/docs/messages/module-not-found\n\nImport trace for requested module:\n./app/page.tsx\nThis error occurred during the build process and can only be dismissed by fixing the error.",
+      "timestamp": 1771606338630,
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "Applied changes to 1 file(s): package.json",
+      "timestamp": 1771606338630,
+      "metadata": {}
+    },
+    {
+      "role": "system",
+      "content": "Resumed project: moodpalette-studio",
+      "timestamp": 1771606338630,
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "Project **moodpalette-studio** loaded successfully! The preview is starting...",
+      "timestamp": 1771606338630,
+      "metadata": {}
+    },
+    {
+      "role": "user",
+      "content": "For the <aside.w-64> element, apply these styles: color: #ffffff, background-color: #ffffff, font-size: 16px, font-weight: 400, font-family: __Inter_f367f3, __Inter_Fallback_f367f3, text-align: start, border-radius: 0px, border: 1px solid #ffffff, display: block, width: 256px, height: 785px, padding: 24px 24px 24px 24px, margin: 0px 0px 0px 0px. (selector path: div.flex.h-screen > aside.w-64.glass)",
+      "timestamp": 1771606387460,
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "Applied changes to 90 file(s): .appforge.json, .next/app-build-manifest.json, .next/build-manifest.json, .next/cache/webpack/client-development/1.pack.gz, .next/cache/webpack/client-development/2.pack.gz, .next/cache/webpack/client-development/3.pack.gz, .next/cache/webpack/client-development/5.pack.gz, .next/cache/webpack/client-development/6.pack.gz, .next/cache/webpack/client-development/8.pack.gz, .next/cache/webpack/client-development/index.pack.gz, .next/cache/webpack/client-development/index.pack.gz.old, .next/cache/webpack/client-development-fallback/1.pack.gz, .next/cache/webpack/client-development-fallback/2.pack.gz, .next/cache/webpack/client-development-fallback/index.pack.gz, .next/cache/webpack/client-development-fallback/index.pack.gz.old, .next/cache/webpack/edge-server-development/index.pack.gz, .next/cache/webpack/server-development/1.pack.gz, .next/cache/webpack/server-development/2.pack.gz, .next/cache/webpack/server-development/3.pack.gz, .next/cache/webpack/server-development/4.pack.gz, .next/cache/webpack/server-development/5.pack.gz, .next/cache/webpack/server-development/6.pack.gz, .next/cache/webpack/server-development/8.pack.gz, .next/cache/webpack/server-development/9.pack.gz, .next/cache/webpack/server-development/index.pack.gz, .next/cache/webpack/server-development/index.pack.gz.old, .next/package.json, .next/react-loadable-manifest.json, .next/server/app/page.js, .next/server/app/page_client-reference-manifest.js, .next/server/app-paths-manifest.json, .next/server/edge-runtime-webpack.js, .next/server/interception-route-rewrite-manifest.js, .next/server/middleware-build-manifest.js, .next/server/middleware-manifest.json, .next/server/middleware-react-loadable-manifest.js, .next/server/next-font-manifest.js, .next/server/next-font-manifest.json, .next/server/pages-manifest.json, .next/server/server-reference-manifest.js, .next/server/server-reference-manifest.json, .next/server/static/webpack/633457081244afec._.hot-update.json, .next/server/vendor-chunks/@swc+helpers@0.5.5.js, .next/server/vendor-chunks/lucide-react@0.263.1_react@18.3.1.js, .next/server/vendor-chunks/sonner@1.7.4_react-dom@18.3.1_react@18.3.1__react@18.3.1.js, .next/server/webpack-runtime.js, .next/static/chunks/app/layout.js, .next/static/chunks/app-pages-internals.js, .next/static/chunks/polyfills.js, .next/static/chunks/webpack.js, .next/static/css/app/layout.css, .next/static/development/_buildManifest.js, .next/static/development/_ssgManifest.js, .next/static/media/19cfc7226ec3afaa-s.woff2, .next/static/media/21350d82a1f187e9-s.woff2, .next/static/media/8e9860b6e62d6359-s.woff2, .next/static/media/ba9851c3c22cd980-s.woff2, .next/static/media/c5fe6dc8356a8c31-s.woff2, .next/static/media/df0a9ae256c0569c-s.woff2, .next/static/media/e4af272ccee01ff0-s.p.woff2, .next/static/webpack/633457081244afec._.hot-update.json, .next/static/webpack/7e05e728732c1209.webpack.hot-update.json, .next/static/webpack/app/layout.7e05e728732c1209.hot-update.js, .next/static/webpack/webpack.7e05e728732c1209.hot-update.js, .next/trace, .next/types/app/layout.ts, .next/types/app/page.ts, .next/types/package.json, app/components/CalendarSection.tsx, app/components/FinanceSection.tsx, app/components/FocusSection.tsx, app/components/HabitsSection.tsx, app/components/MoodSection.tsx, app/components/NotesSection.tsx, app/components/Sidebar.tsx, app/components/TopBar.tsx, app/globals.css, app/layout.tsx, app/page.tsx, ideas.md, middleware.ts, next-env.d.ts, next.config.js, package.json, pnpm-lock.yaml, postcss.config.js, public/wysiwyg-bridge.js, tailwind.config.js, tailwind.config.ts, tsconfig.json",
+      "timestamp": 1771606519542,
+      "metadata": {}
+    },
+    {
+      "role": "user",
+      "content": "Add animations",
+      "timestamp": 1771606657193,
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "Applied changes to 90 file(s): .appforge.json, .next/app-build-manifest.json, .next/build-manifest.json, .next/cache/webpack/client-development/1.pack.gz, .next/cache/webpack/client-development/2.pack.gz, .next/cache/webpack/client-development/3.pack.gz, .next/cache/webpack/client-development/5.pack.gz, .next/cache/webpack/client-development/6.pack.gz, .next/cache/webpack/client-development/8.pack.gz, .next/cache/webpack/client-development/index.pack.gz, .next/cache/webpack/client-development/index.pack.gz.old, .next/cache/webpack/client-development-fallback/1.pack.gz, .next/cache/webpack/client-development-fallback/2.pack.gz, .next/cache/webpack/client-development-fallback/index.pack.gz, .next/cache/webpack/client-development-fallback/index.pack.gz.old, .next/cache/webpack/edge-server-development/index.pack.gz, .next/cache/webpack/server-development/1.pack.gz, .next/cache/webpack/server-development/2.pack.gz, .next/cache/webpack/server-development/3.pack.gz, .next/cache/webpack/server-development/4.pack.gz, .next/cache/webpack/server-development/5.pack.gz, .next/cache/webpack/server-development/6.pack.gz, .next/cache/webpack/server-development/8.pack.gz, .next/cache/webpack/server-development/9.pack.gz, .next/cache/webpack/server-development/index.pack.gz, .next/cache/webpack/server-development/index.pack.gz.old, .next/package.json, .next/react-loadable-manifest.json, .next/server/app/page.js, .next/server/app/page_client-reference-manifest.js, .next/server/app-paths-manifest.json, .next/server/edge-runtime-webpack.js, .next/server/interception-route-rewrite-manifest.js, .next/server/middleware-build-manifest.js, .next/server/middleware-manifest.json, .next/server/middleware-react-loadable-manifest.js, .next/server/next-font-manifest.js, .next/server/next-font-manifest.json, .next/server/pages-manifest.json, .next/server/server-reference-manifest.js, .next/server/server-reference-manifest.json, .next/server/static/webpack/633457081244afec._.hot-update.json, .next/server/vendor-chunks/@swc+helpers@0.5.5.js, .next/server/vendor-chunks/lucide-react@0.263.1_react@18.3.1.js, .next/server/vendor-chunks/sonner@1.7.4_react-dom@18.3.1_react@18.3.1__react@18.3.1.js, .next/server/webpack-runtime.js, .next/static/chunks/app/layout.js, .next/static/chunks/app-pages-internals.js, .next/static/chunks/polyfills.js, .next/static/chunks/webpack.js, .next/static/css/app/layout.css, .next/static/development/_buildManifest.js, .next/static/development/_ssgManifest.js, .next/static/media/19cfc7226ec3afaa-s.woff2, .next/static/media/21350d82a1f187e9-s.woff2, .next/static/media/8e9860b6e62d6359-s.woff2, .next/static/media/ba9851c3c22cd980-s.woff2, .next/static/media/c5fe6dc8356a8c31-s.woff2, .next/static/media/df0a9ae256c0569c-s.woff2, .next/static/media/e4af272ccee01ff0-s.p.woff2, .next/static/webpack/633457081244afec._.hot-update.json, .next/static/webpack/7e05e728732c1209.webpack.hot-update.json, .next/static/webpack/app/layout.7e05e728732c1209.hot-update.js, .next/static/webpack/webpack.7e05e728732c1209.hot-update.js, .next/trace, .next/types/app/layout.ts, .next/types/app/page.ts, .next/types/package.json, app/components/CalendarSection.tsx, app/components/FinanceSection.tsx, app/components/FocusSection.tsx, app/components/HabitsSection.tsx, app/components/MoodSection.tsx, app/components/NotesSection.tsx, app/components/Sidebar.tsx, app/components/TopBar.tsx, app/globals.css, app/layout.tsx, app/page.tsx, ideas.md, middleware.ts, next-env.d.ts, next.config.js, package.json, pnpm-lock.yaml, postcss.config.js, public/wysiwyg-bridge.js, tailwind.config.js, tailwind.config.ts, tsconfig.json",
+      "timestamp": 1771606663868,
+      "metadata": {}
+    }
+  ],
+  "updatedAt": 1771606664681,
+  "wizardConfig": {
+    "projectName": "MoodPalette Studio",
+    "framework": "nextjs",
+    "description": "Aether est un dashboard personnel ultra-premium qui regroupe toute ta vie en un seul endroit :\n\nAgenda intelligent avec vue calendrier + timeline\nNotes AI (comme Notion mais plus beau)\nHabit tracker avec streaks visuels\nFinance overview (solde, dépenses par catégorie, graphiques)\nWeather + mood journal\nSection “Focus Mode” avec timer Pomodoro + musique ambient\nSidebar gauche fixe avec tous les modules\nTop bar avec recherche globale + avatar + quick actions\n\nLe tout dans une interface dark glassmorphism très fluide, avec des micro-animations subtiles, des cartes qui “lèvent” au hover, des gradients doux et des illustrations 3D légères (via Lottie ou simple SVG animés).\nL’objectif : créer le dashboard le plus beau et le plus “waouh” possible en 2026 pour montrer la puissance de l’AI designer. Design Inspiration / Assets\n\nArc Browser\nLinear.app\nNotion (version 2026)\nRaycast\nApple Vision Pro interface\nSites : https://dub.co, https://perplexity.ai, https://linear.app",
+    "answers": [
+      "Créatifs, freelances, étudiants et jeunes pros 22-35 ans qui aiment l’esthétique minimaliste et futuriste.",
+      "Oui, mobile-first + vues desktop / tablet / mobile côte à côte.",
+      "Custom Colors primary #6366f1 (indigo électrique) secondary #a855f7 (violet) accent #22d3ee (cyan) background #0a0a0f (presque noir)",
+      "shadcn/ui + Radix, Tailwind, Lucide icons, Recharts (pour les graphiques), Sonner pour les toasts.",
+      "Tester à fond les capacités design de l’IA : cohérence visuelle, hiérarchie, glassmorphism, animations, data visualization, dark mode parfait, typographie premium."
+    ],
+    "colorPalette": {
+      "preset": {
+        "name": "Light",
+        "colors": [
+          "#ffffff",
+          "#f5f5f5",
+          "#e8e8e8",
+          "#333333",
+          "#0066cc"
+        ]
+      },
+      "presetIndex": 1,
+      "custom": {
+        "primary": "#3b82f6",
+        "secondary": "#8b5cf6",
+        "accent": "#f59e0b",
+        "background": "#0f0f0f"
+      },
+      "style": "Modern"
+    },
+    "images": [],
+    "coordinatorProvider": "claude",
+    "agents": [
+      {
+        "name": "Architect",
+        "role": "Architect",
+        "type": "ai",
+        "id": "agent-1771516819715-ikhk"
+      },
+      {
+        "name": "Developer",
+        "role": "Developer",
+        "type": "ai",
+        "id": "agent-1771516819715-cm5r"
+      },
+      {
+        "name": "Designer",
+        "role": "Designer",
+        "type": "ai",
+        "id": "agent-1771516819715-zmy5"
+      },
+      {
+        "name": "Reviewer",
+        "role": "Reviewer",
+        "type": "ai",
+        "id": "agent-1771516819715-sr76"
+      }
+    ],
+    "quickStart": false
+  },
+  "workspaceState": {
+    "activeFile": "ideas.md",
+    "showFileTree": true,
+    "showEditorPane": true,
+    "showPreview": true
+  },
+  "description": "Aether est un dashboard personnel ultra-premium qui regroupe toute ta vie en un seul endroit :\n\nAgenda intelligent avec vue calendrier + timeline\nNotes AI (comme Notion mais plus beau)\nHabit tracker avec streaks visuels\nFinance overview (solde, dépenses par catégorie, graphiques)\nWeather + mood journal\nSection “Focus Mode” avec timer Pomodoro + musique ambient\nSidebar gauche fixe avec tous les modules\nTop bar avec recherche globale + avatar + quick actions\n\nLe tout dans une interface dark glassmorphism très fluide, avec des micro-animations subtiles, des cartes qui “lèvent” au hover, des gradients doux et des illustrations 3D légères (via Lottie ou simple SVG animés).\nL’objectif : créer le dashboard le plus beau et le plus “waouh” possible en 2026 pour montrer la puissance de l’AI designer. Design Inspiration / Assets\n\nArc Browser\nLinear.app\nNotion (version 2026)\nRaycast\nApple Vision Pro interface\nSites : https://dub.co, https://perplexity.ai, https://linear.app\n\nColor palette: Light (#ffffff, #f5f5f5, #e8e8e8)\nDesign style: Modern\nAI provider: claude",
+  "providerId": "claude"
+}
